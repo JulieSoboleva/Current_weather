@@ -69,7 +69,7 @@ def get_city_coordinates(
     city: str,
 ) -> tuple[Optional[tuple[float, float]], Optional[str], bool]:
     q = urllib.parse.quote(city.strip())
-    url = f"https://api.openweathermap.org/geo/1.0/direct?q={q}&appid={API_KEY}"
+    url = f"https://api.openweathermap.org/geo/1.0/direct?q={q}&appid={API_KEY}&limit=1"
     response, err, offer_cache = request_with_retry(url)
     if err:
         return None, err, offer_cache

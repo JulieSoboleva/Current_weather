@@ -1,51 +1,51 @@
 {
-  "city": "Новосибирск",
-  "lat": 55.0282171,
-  "lon": 82.9234509,
-  "fetched_at": "2026-04-18T14:26:35.150370+00:00",
+  "city": "Лондон",
+  "lat": 51.5073219,
+  "lon": -0.1276474,
+  "fetched_at": "2026-04-20T09:39:32.489993+00:00",
   "weather": {
     "coord": {
-      "lon": 82.9235,
-      "lat": 55.0282
+      "lon": -0.1276,
+      "lat": 51.5073
     },
     "weather": [
       {
-        "id": 800,
-        "main": "Clear",
-        "description": "ясно",
-        "icon": "01n"
+        "id": 802,
+        "main": "Clouds",
+        "description": "переменная облачность",
+        "icon": "03d"
       }
     ],
     "base": "stations",
     "main": {
-      "temp": 2.71,
-      "feels_like": -2.01,
-      "temp_min": 2.71,
-      "temp_max": 2.71,
-      "pressure": 1017,
-      "humidity": 48,
-      "sea_level": 1017,
-      "grnd_level": 998
+      "temp": 11.56,
+      "feels_like": 10.16,
+      "temp_min": 10.59,
+      "temp_max": 12.81,
+      "pressure": 1024,
+      "humidity": 53,
+      "sea_level": 1024,
+      "grnd_level": 1020
     },
     "visibility": 10000,
     "wind": {
-      "speed": 6,
-      "deg": 150
+      "speed": 4.12,
+      "deg": 60
     },
     "clouds": {
-      "all": 0
+      "all": 40
     },
-    "dt": 1776522069,
+    "dt": 1776677972,
     "sys": {
-      "type": 1,
-      "id": 8958,
-      "country": "RU",
-      "sunrise": 1776467914,
-      "sunset": 1776519389
+      "type": 2,
+      "id": 268730,
+      "country": "GB",
+      "sunrise": 1776660861,
+      "sunset": 1776711849
     },
-    "timezone": 25200,
-    "id": 1496747,
-    "name": "Новосибирск",
+    "timezone": 3600,
+    "id": 2643743,
+    "name": "Лондон",
     "cod": 200
   }
 }
